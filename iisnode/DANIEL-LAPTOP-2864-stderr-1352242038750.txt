@@ -1,0 +1,11 @@
+SyntaxError: Unexpected token ,
+    at Object.parse (native)
+    at Object.load (C:\PROG\nodejs\pop-market-api\db.js:6:29)
+    at C:\PROG\nodejs\pop-market-api\server.js:20:21
+    at callbacks (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\router\index.js:162:37)
+    at param (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\router\index.js:136:11)
+    at pass (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\router\index.js:143:5)
+    at Router._dispatch (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\router\index.js:171:4)
+    at Object.router [as handle] (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\router\index.js:33:10)
+    at next (C:\PROG\nodejs\pop-market-api\node_modules\express\node_modules\connect\lib\proto.js:190:15)
+    at Object.expressInit [as handle] (C:\PROG\nodejs\pop-market-api\node_modules\express\lib\middleware.js:31:5)
