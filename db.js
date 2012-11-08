@@ -9,7 +9,6 @@ exports.loadAll = function () {
     return items ? JSON.stringify(items) : null;
 };
 
-
 exports.save = function(item) {
     if(!item.id) {
         item.id = uuid.v4().replace(/\-/g, '').substring(0, 8);
